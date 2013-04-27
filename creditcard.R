@@ -3,7 +3,7 @@ read.cc <-function(out=FALSE, myfile="Activity.CSV"){
   # If you want to rename and output the file,
   # type read.cc(T)
   
-  setwd("/Users/mariafinison/kevin/R/creditcard") 
+  setwd("/Users/mariafinison/kevin/R/cc") 
   
   cc <- read.csv(myfile, header=TRUE) 
   cc.sub <- subset(cc, Type != "Payment") 
